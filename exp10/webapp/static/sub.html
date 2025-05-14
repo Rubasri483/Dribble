@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscription Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+      text-align: center;
+      color: #495057;
+    }
+    .subscription-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .subscription-form input {
+      border-radius: 30px;
+    }
+    .btn-subscribe {
+      border-radius: 30px;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="font-family: fantasy; color: aliceblue;">Dribbble</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="home.html" style="color: aliceblue;">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="search.html" style="color: aliceblue;">Search</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html" style="color: aliceblue;">Login Up</a></li>
+          <li class="nav-item"><a class="nav-link" href="subscription.html" style="color: aliceblue;">Subscribe</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="container">
+      <h1 class="display-4">Stay Updated with Our Latest News!</h1>
+      <p class="lead">Subscribe to our newsletter and never miss an update.</p>
+    </div>
+  </div>
+
+  <!-- Subscription Form -->
+  <div class="container mt-5">
+    <div class="subscription-container">
+      <h2 class="text-center">Subscribe Now</h2>
+      <form action="#" method="POST" class="subscription-form">
+        <div class="form-group">
+          <label for="email">Enter your email address:</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email address" required>
+        </div>
+        <div class="form-group text-center">
+          <button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
+        </div>
+      </form>
+      <p class="text-center text-muted">No spam, we promise!</p>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <p>&copy; 2025 Dribble. All rights reserved.</p>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
